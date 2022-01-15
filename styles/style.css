@@ -75,15 +75,89 @@ h1 {
 }
 .more {
   margin-top: 1900px;
-  margin-left: 79%;
+  margin-left: 77%;
   color: #e02c6d;
+}
+.bonus {
+  display: flex;
+  padding-left: 200px;
+  padding-top: 120px;
+}
+.bonus-1 {
+  width: 700px;
+}
+bonus-1 img {
+  width: 440px;
+  height: 414px;
+  left: 835px;
+  top: 211px;
+  padding-left: 50px;
 }
 footer {
   text-align: center;
-  margin-top: 300px;
-  position: static;
-  padding-top: 50px;
-  height: 200px;
   background-color: navy;
   color: #ffffff;
+  padding-bottom: 80px;
+  margin-top: 70px;
+}
+/* Media Queries */
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+  header {
+    margin-left: 1em;
+    padding: 0%;
+  }
+  .half-width {
+    width: 250px;
+    height: 135px;
+    margin-bottom: 50em;
+  }
+  .half-width img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    position: relative;
+  }
+  section.influencer {
+    display: flex;
+    padding-left: 0px;
+    margin: 0 0 0 0;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border: 0 0 0 0;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .products {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    position: absolute;
+    width: 3em;
+    height: 5em;
+    left: 12em;
+    top: 900px;
+    justify-content: center;
+  }
+  .section-title {
+    margin-bottom: 100%;
+  }
+  .bonus {
+    flex-direction: column;
+    padding-top: -50px;
+  }
+  .bonus-1 {
+    width: 70px;
+  }
+  .bonus-1 img {
+  }
+  footer {
+    width: 299px;
+height: 188px;
+    Corner radius: 7px
+    margin-top: 60px;
 }
