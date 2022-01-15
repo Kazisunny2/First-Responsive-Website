@@ -1,0 +1,54 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Start your Journey as Influencer */
+.influencer {
+  display: flex;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+/* Label */
+h1 {
+  font-size: 52px;
+}
+.half-width {
+  width: 582px;
+  height: 270px;
+}
+.half-width img {
+  width: 440px;
+  height: 414px;
+  left: 835px;
+  top: 211px;
+  padding-left: 50px;
+}
+
+.link-button {
+  text-decoration: none;
+  position: absolute;
+  padding: 10px 24px;
+  background: #e02c6d;
+  border-radius: 41px;
+  color: #ffffff;
+}
+.auto-layout {
+  display: flex;
+}
+.container {
+  margin-top: 15%;
+}
+.section-title {
+  text-align: center;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  position: absolute;
+  width: 1147px;
+  height: 1662px;
+  left: 300px;
+  top: 700px;
+}
+.fa-star.filled {
+  color: #fb8200;
+}
