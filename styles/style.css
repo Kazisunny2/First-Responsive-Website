@@ -1,3 +1,11 @@
+header {
+  padding-left: 120px;
+  padding-top: 87px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -37,9 +45,6 @@ h1 {
 .container {
   margin-top: 15%;
 }
-h2 {
-  margin-bottom: 15%;
-}
 .section-title {
   text-align: center;
 }
@@ -51,7 +56,7 @@ h2 {
   width: 1147px;
   height: 1662px;
   left: 300px;
-  top: 800px;
+  top: 900px;
   justify-content: center;
 }
 .product {
@@ -72,4 +77,13 @@ h2 {
   margin-top: 1900px;
   margin-left: 79%;
   color: #e02c6d;
+}
+footer {
+  text-align: center;
+  margin-top: 300px;
+  position: static;
+  padding-top: 50px;
+  height: 200px;
+  background-color: navy;
+  color: #ffffff;
 }
