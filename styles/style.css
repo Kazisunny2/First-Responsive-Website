@@ -37,18 +37,39 @@ h1 {
 .container {
   margin-top: 15%;
 }
+h2 {
+  margin-bottom: 15%;
+}
 .section-title {
   text-align: center;
 }
 .products {
   display: grid;
+  gap: 30px;
   grid-template-columns: repeat(3, 3fr);
   position: absolute;
   width: 1147px;
   height: 1662px;
   left: 300px;
-  top: 700px;
+  top: 800px;
+  justify-content: center;
+}
+.product {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 300px;
+  padding: 30px;
+  margin: 0, auto;
+}
+.products .product-icon {
+  padding: 10px;
 }
 .fa-star.filled {
   color: #fb8200;
+}
+.more {
+  margin-top: 1900px;
+  margin-left: 79%;
+  color: #e02c6d;
 }
